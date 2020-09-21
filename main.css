@@ -51,7 +51,7 @@ nav li {list-style-type:none;}
 nav a {
     background-color:lightgray;
     color:black;
-    display:block;
+    display:inline-block;
     font-size:150%;
     margin:2%;
     padding:2%;
