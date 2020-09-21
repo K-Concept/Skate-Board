@@ -1,7 +1,7 @@
 /* page layout blocks */
 body
 {
-    background-color: #808080;
+    background-color: light gray;
 }
 header
 {
@@ -17,7 +17,7 @@ title
 a{}
 a:link{}
 a:visited{}
-a:hover0
+a:hover
 {
   background-color: #eeeeee;
 }
