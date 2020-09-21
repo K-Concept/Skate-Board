@@ -5,7 +5,6 @@ body
 }
 header
 {
-    background-color:#319df6;
     height:70px;
 }
 title
@@ -14,15 +13,6 @@ title
 }
 
 /* anchors */
-/* anchors */
-a{color: #A7BDD9;}
-a:link{color:white} /*blue, text-decoration*/
-a:hover{ 
-    color: #A7BDD9;
-    background-color: #696D52;} /*cursor changes to fist*/
-a:active{ color:#6E82A3} /*red*/
-a:visited{color: #6E82A3} /*purple*/
-a img {border:0 solid transparent;}
 
 
 /* navigation */
