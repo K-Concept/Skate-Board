@@ -35,6 +35,7 @@ a:hover
 .navlist
 {
     background-color: white;
+    display: inline-block;
 }
 .navitem
 {
