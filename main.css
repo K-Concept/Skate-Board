@@ -19,9 +19,9 @@ title
     text-decoration: none;
     background-color: white;
     display: inline-block;
-    margin-top: 2%;
+    margin-top: 0;
     padding-top: 2%;
-    {border:1 solid black;
+    border:1px solid black;
 
 }
 .navlist
