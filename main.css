@@ -73,4 +73,46 @@ h4 {font-size:150%;}
 h5 {font-size:125%;}
 h6 {font-size:100%;}
 
-  
+/* embellishments */
+.radius {
+    -webkit-border-radius: 0 45px 0 53px;/*Safari, Chrome*/
+    -moz-border-radius: 0 45px 0 53px;/*Firefox*/
+    border-radius: 0 45px 0 53px;
+}
+.circle {
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.boxshadow {
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,.10);
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,.10);
+}
+
+.tshadow {
+    text-shadow: 1px 1px 1px #999;
+}
+.gradient {
+    background: -moz-linear-gradient(90deg, #8C8079 10%, #FFFFFF 100%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 90deg, color-stop(15%, #999), color-stop(100%, FFFFFF));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(90deg, #8C8079 10%, #FFFFFF 100%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(90deg, #8C8079 10%, #FFFFFF 100%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(90deg, #8C8079 10%, #FFFFFF 100%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(90deg, #8C8079 10%, #FFFFFF 100%);/* W3C */
+
+}
+.shape {
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    
+}
+
+.move {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+     -o-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+}
