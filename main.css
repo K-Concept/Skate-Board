@@ -14,13 +14,16 @@ title
 }
 
 /* anchors */
-a{}
-a:link{}
-a:visited{}
-a:hover
-{
-  background-color: #eeeeee;
-}
+/* anchors */
+a{color: #A7BDD9;}
+a:link{color:white} /*blue, text-decoration*/
+a:hover{ 
+    color: #A7BDD9;
+    background-color: #696D52;} /*cursor changes to fist*/
+a:active{ color:#6E82A3} /*red*/
+a:visited{color: #6E82A3} /*purple*/
+a img {border:0 solid transparent;}
+
 
 /* navigation */
 .navbar
@@ -42,8 +45,34 @@ a:hover
     text-decoration: none;
     padding: 7px;
 }
-.active
-{}
+nav {text-align:center;}
+nav ul {padding:0;}
+nav li {list-style-type:none;}
+nav a {
+    background-color:lightgray;
+    color:black;
+    display:block;
+    font-size:150%;
+    margin:2%;
+    padding:2%;
+    text-decoration:none;
+}
+nav a:hover {
+    
+    background-color:darkgray;
+    color:white;
+       
+    /* Transition */
+        -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+    
+}
+
+nav i[onclick] {cursor:pointer;}
+
 
 /* typography */
 p {font-family:'Roboto', sans-serif;}
