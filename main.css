@@ -56,9 +56,11 @@ article {
 .navitem
 {
     text-decoration: none;
+    padding: 2px;
+    margin: 2px;
 }
 nav {text-align:center;}
-nav ul {padding: 1px;}
+nav ul {}
 nav li 
 {
     list-style-type:none;
