@@ -36,11 +36,14 @@ title
 {
     text-decoration: none;
     padding: 7px;
-    border:1px solid gray;
 }
 nav {text-align:center;}
 nav ul {padding:0;}
-nav li {list-style-type:none;}
+nav li 
+{
+    list-style-type:none;
+    border:1px solid gray;
+}
 nav a {
     background-color:white;
     color:black;
