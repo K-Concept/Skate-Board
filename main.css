@@ -13,7 +13,7 @@ title
 
 article {
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #c0c0c0;
     margin:5%;
     padding:5%;
 }
@@ -43,7 +43,7 @@ article {
     text-decoration: none;
     background-color: white;
     display: inline-block;
-    border:1px solid black;
+    border:1px solid #c0c0c0;
     margin: 1%;
     padding: 1%;
 
