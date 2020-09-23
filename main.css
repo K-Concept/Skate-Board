@@ -20,8 +20,8 @@ title
     text-decoration: none;
     background-color: white;
     display: inline-block;
-    margin-top: 0;
-    padding-top: 0;
+    margin: 1%;
+    padding: 1%;
     border:1px solid black;
 
 }
@@ -29,9 +29,8 @@ title
 {
     background-color: white;
     display: inline-block;
-    padding-top: 0px;
-    padding-left: 7px;
-    padding-right: 7px;
+    margin: 1%;
+    padding: 1%;
 }
 .navitem
 {
