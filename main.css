@@ -39,7 +39,7 @@ title
     padding: 7px;
 }
 nav {text-align:center;}
-nav ul {padding:0;}
+nav ul {padding: 5px;}
 nav li 
 {
     list-style-type:none;
