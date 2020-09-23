@@ -126,6 +126,11 @@ h6 {font-size:100%;}
     -moz-border-radius: 0 45px 0 53px;/*Firefox*/
     border-radius: 0 45px 0 53px;
 }
+.radiusa {
+    -webkit-border-radius: 45px 45px 45px 45px;/*Safari, Chrome*/
+    -moz-border-radius: 45px 45px 45px 45px;/*Firefox*/
+    border-radius: 45px 45px 45px 45px;
+}
 .circle {
     -webkit-border-radius: 50%; 
     border-radius: 50%;
