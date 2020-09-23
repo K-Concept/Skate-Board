@@ -1,6 +1,7 @@
 /* page layout blocks */
 body
 {
+    margin-top: 0;
     background-color: #e9e9e7;
 }
 header
