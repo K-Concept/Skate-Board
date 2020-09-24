@@ -2,6 +2,7 @@
 body
 {
     margin-top: 0;
+    margin-left: 0;
     background-color: #d4d4d4;
 }
 header
@@ -46,7 +47,7 @@ article {
     background-color: white;
     display: inline-block;
     border:1px solid transparent;
-    margin: 1%;
+    margin-top: 0;
     padding: 1%;
 
 }
@@ -124,9 +125,9 @@ h6 {font-size:100%;}
 
 /* embellishments */
 .radius {
-    -webkit-border-radius: 0 45px 0 53px;/*Safari, Chrome*/
-    -moz-border-radius: 0 45px 0 53px;/*Firefox*/
-    border-radius: 0 45px 0 53px;
+    -webkit-border-radius: 0 0 15px 0px;/*Safari, Chrome*/
+    -moz-border-radius: 0 0 15px 0px;/*Firefox*/
+    border-radius: 0 0 15px 0px;
 }
 .radiusa {
     -webkit-border-radius: 20px 20px 20px 20px;/*Safari, Chrome*/
@@ -134,8 +135,10 @@ h6 {font-size:100%;}
     border-radius: 20px 20px 20px 20px;
 }
 .circle {
-    -webkit-border-radius: 50%; 
-    border-radius: 50%;
+  -webkit-box-shadow: 26px 23px 26px -8px rgba(77,72,77,1);
+   -moz-box-shadow: 26px 23px 26px -8px rgba(77,72,77,1);
+   box-shadow: 26px 23px 26px -8px rgba(77,72,77,1);
+
 }
 .boxshadow {
     -webkit-box-shadow: 2px 2px 10px 4px rgba(0,0,0,.10);
@@ -170,3 +173,4 @@ h6 {font-size:100%;}
      -o-transition: all 1s ease-in-out;
         transition: all 1s ease-in-out;
 }
+
